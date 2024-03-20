@@ -27,5 +27,7 @@ class FormController extends Controller
         return view('admin.forms.wysiwyg_markdown');
     }
 
-    
+    public function wysiwyg_markdown(){
+        return view('admin.forms.wysiwyg_markdown');
+    }
 }

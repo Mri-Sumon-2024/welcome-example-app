@@ -44,7 +44,7 @@
         </li>
 
         <li class="">
-            <a href="#" class="dropdown-toggle">
+            <a href="{{ route('ui_and_elements.elements') }}" class="dropdown-toggle">
                 <i class="menu-icon fa fa-desktop"></i>
                 <span class="menu-text">
                     UI &amp; Elements
@@ -59,7 +59,6 @@
                 <li class="">
                     <a href="#" class="dropdown-toggle">
                         <i class="menu-icon fa fa-caret-right"></i>
-
                         Layouts
                         <b class="arrow fa fa-angle-down"></b>
                     </a>
@@ -68,7 +67,7 @@
 
                     <ul class="submenu">
                         <li class="">
-                            <a href="top-menu.html">
+                            <a href="{{ route('ui_and_elements.layouts.top_menu') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Top Menu
                             </a>
@@ -77,7 +76,7 @@
                         </li>
 
                         <li class="">
-                            <a href="two-menu-1.html">
+                            <a href="{{ route('ui_and_elements.layouts.two_menus_1') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Two Menus 1
                             </a>
@@ -86,7 +85,7 @@
                         </li>
 
                         <li class="">
-                            <a href="two-menu-2.html">
+                            <a href="{{ route('ui_and_elements.layouts.two_menus_2') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Two Menus 2
                             </a>
@@ -95,7 +94,7 @@
                         </li>
 
                         <li class="">
-                            <a href="mobile-menu-1.html">
+                            <a href="{{ route('ui_and_elements.layouts.default_mobile_menu') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Default Mobile Menu
                             </a>
@@ -104,7 +103,7 @@
                         </li>
 
                         <li class="">
-                            <a href="mobile-menu-2.html">
+                            <a href="{{ route('ui_and_elements.layouts.mobile_menu_2') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Mobile Menu 2
                             </a>
@@ -113,7 +112,7 @@
                         </li>
 
                         <li class="">
-                            <a href="mobile-menu-3.html">
+                            <a href="{{ route('ui_and_elements.layouts.mobile_menu_3') }}">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Mobile Menu 3
                             </a>
@@ -124,7 +123,7 @@
                 </li>
 
                 <li class="">
-                    <a href="typography.html">
+                    <a href="{{ route('ui_and_elements.typography') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Typography
                     </a>
@@ -133,7 +132,7 @@
                 </li>
 
                 <li class="">
-                    <a href="elements.html">
+                    <a href="{{ route('ui_and_elements.elements') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Elements
                     </a>
@@ -142,7 +141,7 @@
                 </li>
 
                 <li class="">
-                    <a href="buttons.html">
+                    <a href="{{ route('ui_and_elements.buttons_and_icons') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Buttons &amp; Icons
                     </a>
@@ -151,7 +150,7 @@
                 </li>
 
                 <li class="">
-                    <a href="content-slider.html">
+                    <a href="{{ route('ui_and_elements.content_sliders') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Content Sliders
                     </a>
@@ -160,7 +159,7 @@
                 </li>
 
                 <li class="">
-                    <a href="treeview.html">
+                    <a href="{{ route('ui_and_elements.treeview') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Treeview
                     </a>
@@ -169,7 +168,7 @@
                 </li>
 
                 <li class="">
-                    <a href="jquery-ui.html">
+                    <a href="{{ route('ui_and_elements.jquery_ui') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         jQuery UI
                     </a>
@@ -178,7 +177,7 @@
                 </li>
 
                 <li class="">
-                    <a href="nestable-list.html">
+                    <a href="{{route('ui_and_elements.nestable_lists')}}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Nestable Lists
                     </a>
@@ -198,7 +197,7 @@
 
                     <ul class="submenu">
                         <li class="">
-                            <a href="#">
+                            <a href="{{ route('ui_and_elements.layouts.item_1') }}">
                                 <i class="menu-icon fa fa-leaf green"></i>
                                 Item #1
                             </a>
@@ -207,7 +206,7 @@
                         </li>
 
                         <li class="">
-                            <a href="#" class="dropdown-toggle">
+                            <a href="{{ route('ui_and_elements.layouts.fourth_level') }}" class="dropdown-toggle">
                                 <i class="menu-icon fa fa-pencil orange"></i>
 
                                 4th level
@@ -253,7 +252,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="tables.html">
+                    <a href="{{ route('tables.simple_and_dynamic') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Simple &amp; Dynamic
                     </a>
@@ -262,7 +261,7 @@
                 </li>
 
                 <li class="">
-                    <a href="jqgrid.html">
+                    <a href="{{ route('tables.jqgrid_plugin') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         jqGrid plugin
                     </a>
@@ -284,7 +283,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="form-elements.html">
+                    <a href="{{ route('forms.form_elements') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Form Elements
                     </a>
@@ -293,7 +292,7 @@
                 </li>
 
                 <li class="">
-                    <a href="form-elements-2.html">
+                    <a href="{{ route('forms.form_elements_2') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Form Elements 2
                     </a>
@@ -302,7 +301,7 @@
                 </li>
 
                 <li class="">
-                    <a href="form-wizard.html">
+                    <a href="{{ route('forms.wizard_and_validation') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Wizard &amp; Validation
                     </a>
@@ -311,7 +310,7 @@
                 </li>
 
                 <li class="">
-                    <a href="wysiwyg.html">
+                    <a href="{{ route('forms.wysiwyg_markdown') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Wysiwyg &amp; Markdown
                     </a>
@@ -320,7 +319,7 @@
                 </li>
 
                 <li class="">
-                    <a href="dropzone.html">
+                    <a href="{{ route('forms.dropzone_file_upload') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Dropzone File Upload
                     </a>
@@ -331,7 +330,7 @@
         </li>
 
         <li class="">
-            <a href="widgets.html">
+            <a href="{{ route('admin.widgets') }}">
                 <i class="menu-icon fa fa-list-alt"></i>
                 <span class="menu-text"> Widgets </span>
             </a>
@@ -340,7 +339,7 @@
         </li>
 
         <li class="">
-            <a href="calendar.html">
+            <a href="{{ route('admin.calender') }}">
                 <i class="menu-icon fa fa-calendar"></i>
 
                 <span class="menu-text">
@@ -356,7 +355,7 @@
         </li>
 
         <li class="">
-            <a href="gallery.html">
+            <a href="{{ route('admin.gallery') }}">
                 <i class="menu-icon fa fa-picture-o"></i>
                 <span class="menu-text"> Gallery </span>
             </a>
@@ -376,7 +375,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="profile.html">
+                    <a href="{{ route('more_pages.user_profile') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         User Profile
                     </a>
@@ -385,7 +384,7 @@
                 </li>
 
                 <li class="active">
-                    <a href="inbox.html">
+                    <a href="{{ route('more_pages.index') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Inbox
                     </a>
@@ -394,7 +393,7 @@
                 </li>
 
                 <li class="">
-                    <a href="pricing.html">
+                    <a href="{{ route('more_pages.pricing_tables') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Pricing Tables
                     </a>
@@ -403,7 +402,7 @@
                 </li>
 
                 <li class="">
-                    <a href="invoice.html">
+                    <a href="{{ route('more_pages.invoice') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Invoice
                     </a>
@@ -412,7 +411,7 @@
                 </li>
 
                 <li class="">
-                    <a href="timeline.html">
+                    <a href="{{ route('more_pages.timeline') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Timeline
                     </a>
@@ -421,7 +420,7 @@
                 </li>
 
                 <li class="">
-                    <a href="search.html">
+                    <a href="{{ route('more_pages.search_results') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Search Results
                     </a>
@@ -430,7 +429,7 @@
                 </li>
 
                 <li class="">
-                    <a href="email.html">
+                    <a href="{{ route('more_pages.email_templates') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Email Templates
                     </a>
@@ -439,7 +438,7 @@
                 </li>
 
                 <li class="">
-                    <a href="login.html">
+                    <a href="{{ route('more_pages.login_and_register') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Login &amp; Register
                     </a>
@@ -466,7 +465,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="faq.html">
+                    <a href="{{ route('other_pages.faq')}}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         FAQ
                     </a>
@@ -475,7 +474,7 @@
                 </li>
 
                 <li class="">
-                    <a href="error-404.html">
+                    <a href="{{ route('other_pages.error_404') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Error 404
                     </a>
@@ -484,7 +483,7 @@
                 </li>
 
                 <li class="">
-                    <a href="error-500.html">
+                    <a href="{{ route('other_pages.error_500') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Error 500
                     </a>
@@ -493,7 +492,7 @@
                 </li>
 
                 <li class="">
-                    <a href="grid.html">
+                    <a href="{{ route('other_pages.grid') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Grid
                     </a>
@@ -502,7 +501,7 @@
                 </li>
 
                 <li class="">
-                    <a href="blank.html">
+                    <a href="{{ route('other_pages.blank_page') }}">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Blank Page
                     </a>

@@ -84,7 +84,7 @@ Route::group(['prefix' => 'admin'], function(){
     Route::get('/ui_and_elements/layouts/two_menus_2', [LayoutController::class, 'two_menus_2'])->name('ui_and_elements.layouts.two_menus_2');
 
 
-    //fourth_level ROUTES
+    //THREE LAVEL ROUTES
     Route::get('/ui_and_elements/three_level_manu/fourth_level', [ThreeLevelMenuController::class, 'fourth_level'])->name('ui_and_elements.layouts.fourth_level');
     Route::get('/ui_and_elements/three_level_manu/item_1', [ThreeLevelMenuController::class, 'item_1'])->name('ui_and_elements.layouts.item_1');
 

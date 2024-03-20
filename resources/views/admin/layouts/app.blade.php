@@ -27,7 +27,7 @@
 
 
             {{-- page body  --}}
-			<div class="main-content">
+			<div class="main-content">   
                 @yield('content')
 			</div>
 
