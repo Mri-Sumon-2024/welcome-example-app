@@ -9,9 +9,13 @@
             </li>
 
             <li>
-                <a href="#">Forms</a>
+                <a href="#">UI &amp; Elements</a>
             </li>
-            <li class="active">Dropzone File Upload</li>
+
+            <li>
+                <a href="#">Layouts</a>
+            </li>
+            <li class="active">Mobile Menu 2</li>
         </ul><!-- /.breadcrumb -->
 
         <div class="nav-search" id="nav-search">
@@ -93,90 +97,35 @@
         </div><!-- /.ace-settings-container -->
 
         <div class="page-header">
-            <h1>
-                Dropzone.js
-                <small>
-                    <i class="ace-icon fa fa-angle-double-right"></i>
-                    Drag &amp; drop file upload with image preview
-                </small>
-            </h1>
+            <h1>Minimized Responsive(mobile) Menu </h1>
         </div><!-- /.page-header -->
 
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
-                <div class="alert alert-info">
-                    <i class="ace-icon fa fa-hand-o-right"></i>
-
-                    Please note that demo server is not configured to save uploaded files, therefore you may get an error message.
-                    <button class="close" data-dismiss="alert">
+                <div class="alert alert-info hidden-sm hidden-xs">
+                    <button type="button" class="close" data-dismiss="alert">
                         <i class="ace-icon fa fa-times"></i>
                     </button>
+                    Please note that
+                    <span class="blue bolder">mobile menu</span>
+                    is visible only when window size is less than
+                    <span class="blue bolder">992px</span>
+                    ,which you can change using CSS builder tool.
                 </div>
 
-                <div>
-                    <form action="./dummy.html" class="dropzone well" id="dropzone">
-                        <div class="fallback">
-                            <input name="file" type="file" multiple="" />
-                        </div>
-                    </form>
+                <div class="alert alert-info hidden-md hidden-lg">
+                    <button type="button" class="close" data-dismiss="alert">
+                        <i class="ace-icon fa fa-times"></i>
+                    </button>
+                    When device is smaller than
+                    <span class="blue bolder">992px</span>
+                    wide, side menu is automatically minimized.
                 </div>
 
-                <div id="preview-template" class="hide">
-                    <div class="dz-preview dz-file-preview">
-                        <div class="dz-image">
-                            <img data-dz-thumbnail="" />
-                        </div>
-
-                        <div class="dz-details">
-                            <div class="dz-size">
-                                <span data-dz-size=""></span>
-                            </div>
-
-                            <div class="dz-filename">
-                                <span data-dz-name=""></span>
-                            </div>
-                        </div>
-
-                        <div class="dz-progress">
-                            <span class="dz-upload" data-dz-uploadprogress=""></span>
-                        </div>
-
-                        <div class="dz-error-message">
-                            <span data-dz-errormessage=""></span>
-                        </div>
-
-                        <div class="dz-success-mark">
-                            <span class="fa-stack fa-lg bigger-150">
-                                <i class="fa fa-circle fa-stack-2x white"></i>
-
-                                <i class="fa fa-check fa-stack-1x fa-inverse green"></i>
-                            </span>
-                        </div>
-
-                        <div class="dz-error-mark">
-                            <span class="fa-stack fa-lg bigger-150">
-                                <i class="fa fa-circle fa-stack-2x white"></i>
-
-                                <i class="fa fa-remove fa-stack-1x fa-inverse red"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div><!-- PAGE CONTENT ENDS -->
+                <!-- PAGE CONTENT ENDS -->
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.page-content -->
 </div>
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-

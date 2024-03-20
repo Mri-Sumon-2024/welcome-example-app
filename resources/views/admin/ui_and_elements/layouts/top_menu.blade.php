@@ -1,29 +1,6 @@
 @extends('admin.layouts.app')
 @section('content')
 <div class="main-content-inner">
-    <div class="breadcrumbs ace-save-state" id="breadcrumbs">
-        <ul class="breadcrumb">
-            <li>
-                <i class="ace-icon fa fa-home home-icon"></i>
-                <a href="#">Home</a>
-            </li>
-
-            <li>
-                <a href="#">Forms</a>
-            </li>
-            <li class="active">Dropzone File Upload</li>
-        </ul><!-- /.breadcrumb -->
-
-        <div class="nav-search" id="nav-search">
-            <form class="form-search">
-                <span class="input-icon">
-                    <input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-                    <i class="ace-icon fa fa-search nav-search-icon"></i>
-                </span>
-            </form>
-        </div><!-- /.nav-search -->
-    </div>
-
     <div class="page-content">
         <div class="ace-settings-container" id="ace-settings-container">
             <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
@@ -94,10 +71,10 @@
 
         <div class="page-header">
             <h1>
-                Dropzone.js
+                Top Menu Style
                 <small>
                     <i class="ace-icon fa fa-angle-double-right"></i>
-                    Drag &amp; drop file upload with image preview
+                    top menu &amp; navigation
                 </small>
             </h1>
         </div><!-- /.page-header -->
@@ -105,78 +82,79 @@
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
-                <div class="alert alert-info">
-                    <i class="ace-icon fa fa-hand-o-right"></i>
-
-                    Please note that demo server is not configured to save uploaded files, therefore you may get an error message.
-                    <button class="close" data-dismiss="alert">
+                <div class="alert alert-info visible-sm visible-xs">
+                    <button type="button" class="close" data-dismiss="alert">
                         <i class="ace-icon fa fa-times"></i>
+                    </button>
+                    Please note that
+                    <span class="blue bolder">top menu style</span>
+                    is visible only in devices larger than
+                    <span class="blue bolder">991px</span>
+                    which you can change using CSS builder tool.
+                </div>
+
+                <div class="well well-sm visible-sm visible-xs">
+                    Top menu can become any of the 3 mobile view menu styles:
+                    <em>default</em>
+,
+                    <em>collapsible</em>
+                    or
+                    <em>minimized</em>.
+                </div>
+
+                <div class="hidden-sm hidden-xs">
+                    <button type="button" class="sidebar-collapse btn btn-white btn-primary" data-target="#sidebar">
+                        <i class="ace-icon fa fa-angle-double-up" data-icon1="ace-icon fa fa-angle-double-up" data-icon2="ace-icon fa fa-angle-double-down"></i>
+                        Collapse/Expand Menu
                     </button>
                 </div>
 
-                <div>
-                    <form action="./dummy.html" class="dropzone well" id="dropzone">
-                        <div class="fallback">
-                            <input name="file" type="file" multiple="" />
-                        </div>
-                    </form>
+                <div class="center">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
 
-                <div id="preview-template" class="hide">
-                    <div class="dz-preview dz-file-preview">
-                        <div class="dz-image">
-                            <img data-dz-thumbnail="" />
-                        </div>
-
-                        <div class="dz-details">
-                            <div class="dz-size">
-                                <span data-dz-size=""></span>
-                            </div>
-
-                            <div class="dz-filename">
-                                <span data-dz-name=""></span>
-                            </div>
-                        </div>
-
-                        <div class="dz-progress">
-                            <span class="dz-upload" data-dz-uploadprogress=""></span>
-                        </div>
-
-                        <div class="dz-error-message">
-                            <span data-dz-errormessage=""></span>
-                        </div>
-
-                        <div class="dz-success-mark">
-                            <span class="fa-stack fa-lg bigger-150">
-                                <i class="fa fa-circle fa-stack-2x white"></i>
-
-                                <i class="fa fa-check fa-stack-1x fa-inverse green"></i>
-                            </span>
-                        </div>
-
-                        <div class="dz-error-mark">
-                            <span class="fa-stack fa-lg bigger-150">
-                                <i class="fa fa-circle fa-stack-2x white"></i>
-
-                                <i class="fa fa-remove fa-stack-1x fa-inverse red"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div><!-- PAGE CONTENT ENDS -->
+                <!-- PAGE CONTENT ENDS -->
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.page-content -->
 </div>
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-
